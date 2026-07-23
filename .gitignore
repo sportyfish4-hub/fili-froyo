@@ -1,0 +1,46 @@
+# Secrets & credentials
+.env
+.env.local
+secrets.json
+*.key
+*.pem
+
+# API keys & tokens
+credentials.json
+config/auth.json
+
+# Private docs (contracts, financial)
+docs/*-final-signed.pdf
+docs/*-confidential.md
+
+# Output artifacts
+*.xlsx
+*.csv
+outputs/*.csv
+outputs/internal-metrics.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Node (if web/ uses any)
+node_modules/
+dist/
+build/
+
+# Python (if any analysis scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.bak
+~*
